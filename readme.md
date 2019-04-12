@@ -15,7 +15,7 @@ together with your own custom classes and how to avoid class names conflicts.
 - Faker: Generates fake data for you [link](https://github.com/fzaninotto/Faker)
 - Bulma: CSS Framework [link](https://bulma.io/)
 - Unsplash: Random images [link](https://source.unsplash.com/)
-- Local dev: [Xampp](https://www.apachefriends.org/index.html) (windows), [Mamp](https://www.mamp.info/en/) (os x), [Docker](https://www.docker.com/) (universal, comming soon)
+- Local dev: [Xampp](https://www.apachefriends.org/index.html) (windows), [Mamp](https://www.mamp.info/en/) (os x), [Docker](https://www.docker.com/) (universal)
 ## Dependency Management
 A Dependency is an external standalone program module (library) that can be as small as a single file 
 or as large as a collection of files and folders organized into packages that performs a specific task.
@@ -74,3 +74,8 @@ It's easy let's have a look at how it works in this app. [commence practical sho
 - Turn on error reporting (warnings too)
 - run `composer dump-autoload` after any autoload config change
 - don't use `Switch` as a namespace, it's reserved word
+
+# How to run this app
+1. Clone this repo
+2. Make sure docker is installed
+2. Run `docker-compose up` from the root folder
